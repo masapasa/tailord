@@ -74,8 +74,8 @@ devDependencies:
     specifier: 18.11.18
     version: 18.11.18
   '@types/react':
-    specifier: 18.0.26
-    version: 18.0.26
+    specifier: 18.2.53
+    version: 18.2.53
   '@types/react-dom':
     specifier: 18.0.9
     version: 18.0.9
@@ -121,6 +121,7 @@ packages:
 
   /@emotion/memoize@0.7.4:
     resolution: {integrity: sha512-Ja/Vfqe3HpuzRsG1oBtWTHk2PGZ7GR+2Vz5iYGelAw8dx32K0y7PjVuxK6z1nMpZOqAFsRUPCkK1YjJ56qJlgw==}
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -191,7 +192,7 @@ packages:
       react: '>=16'
     dependencies:
       '@types/mdx': 2.0.9
-      '@types/react': 18.0.26
+      '@types/react': 18.2.53
       react: 18.2.0
     dev: false
 
@@ -556,11 +557,11 @@ packages:
   /@types/react-dom@18.0.9:
     resolution: {integrity: sha512-qnVvHxASt/H7i+XG1U1xMiY5t+IHcPGUK7TDMDzom08xa7e86eCeKOiLZezwCKVxJn6NEiiy2ekgX8aQssjIKg==}
     dependencies:
-      '@types/react': 18.0.26
+      '@types/react': 18.2.53
     dev: true
 
-  /@types/react@18.0.26:
-    resolution: {integrity: sha512-hCR3PJQsAIXyxhTNSiDFY//LhnMZWpNNr5etoCqx/iUfGc5gXWtQR2Phl908jVR6uPXacojQWTg4qRpkxTuGug==}
+  /@types/react@18.2.53:
+    resolution: {integrity: sha512-52IHsMDT8qATp9B9zoOyobW8W3/0QhaJQTw1HwRj0UY2yBpCAQ7+S/CqHYQ8niAm3p4ji+rWUQ9UCib0GxQ60w==}
     dependencies:
       '@types/prop-types': 15.7.9
       '@types/scheduler': 0.16.5
